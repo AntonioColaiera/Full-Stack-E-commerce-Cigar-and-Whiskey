@@ -1,0 +1,17 @@
+.App {
+  background-image: url('/public/img/Background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  transition: background-size 0.5s; /* Aggiungi una transizione fluida */
+}
+
+/* Media query per dispositivi con larghezza massima di 768px */
+@media (max-width: 768px) {
+  .App {
+    background-size: contain; /* Ridimensiona l'immagine per adattarsi */
+  }
+}
+
+
